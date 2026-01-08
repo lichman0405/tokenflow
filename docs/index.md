@@ -42,7 +42,7 @@ TokenFlow is available in three languages:
     go get github.com/lichman0405/tokenflow/go
     ```
 
-    [Go Documentation](usage/go.md){ .md-button }
+    [Go Documentation](usage/go.md){ .md-button .md-button--primary }
 
 === "Python"
 
@@ -50,7 +50,7 @@ TokenFlow is available in three languages:
     pip install tokenflow
     ```
 
-    [Python Documentation](usage/python.md){ .md-button }
+    [Python Documentation](usage/python.md){ .md-button .md-button--primary }
 
 === "TypeScript"
 
@@ -58,7 +58,7 @@ TokenFlow is available in three languages:
     npm install tokenflow
     ```
 
-    [TypeScript Documentation](usage/typescript.md){ .md-button }
+    [TypeScript Documentation](usage/typescript.md){ .md-button .md-button--primary }
 
 ## Security
 
