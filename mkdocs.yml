@@ -1,0 +1,86 @@
+site_name: TokenFlow
+site_description: Multi-language OAuth2 Device Flow library for GitHub Copilot and Hyper
+site_author: Shibo Li
+site_url: https://lichman0405.github.io/tokenflow/
+
+repo_name: lichman0405/tokenflow
+repo_url: https://github.com/lichman0405/tokenflow
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quickstart.md
+  - Usage Guide:
+      - Overview: usage/index.md
+      - Go: usage/go.md
+      - Python: usage/python.md
+      - TypeScript: usage/typescript.md
+      - Common Patterns: usage/common-patterns.md
+      - Error Handling: usage/error-handling.md
+  - API Reference:
+      - Token Management: api/token.md
+      - GitHub Copilot: api/copilot.md
+      - Hyper: api/hyper.md
+  - Design:
+      - Architecture: design/architecture.md
+      - Security: design/security.md
+      - Implementation: design/implementation.md
+  - Contributing: contributing.md
+  - License: license.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lichman0405/tokenflow
+    - icon: fontawesome/solid/envelope
+      link: mailto:shadow.li981@gmail.com
+
+copyright: Copyright &copy; 2026 Shibo Li
