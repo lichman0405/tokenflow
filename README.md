@@ -77,11 +77,11 @@ See [Python Documentation](python/README_EN.md) for detailed usage.
 
 ```bash
 cd ts
-npm
-## Documentation
+npm install
+npm run build
+```
 
-- **Usage Guide**: [USAGE.md](USAGE.md) - Comprehensive examples for all languages
-- **Design Document**: [docs/design_EN.md](docs/design_EN.md) / [docs/design_CN.md](docs/design_CN.md)
+See [TypeScript Documentation](ts/README_EN.md) for detailed usage.
 
 ## Author
 
