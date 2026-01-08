@@ -1,0 +1,32 @@
+{
+  "name": "oauth-deviceflow",
+  "version": "1.0.0",
+  "description": "OAuth2 device flow authentication library for GitHub Copilot and Hyper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "device-flow",
+    "github-copilot",
+    "authentication"
+  ],
+  "author": "OAuth DeviceFlow",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,93 @@
+# Binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go
+go/vendor/
+go/*.test
+go/*.prof
+
+# Python
+python/__pycache__/
+python/*.py[cod]
+python/*$py.class
+python/*.so
+python/.Python
+python/build/
+python/develop-eggs/
+python/dist/
+python/downloads/
+python/eggs/
+python/.eggs/
+python/lib/
+python/lib64/
+python/parts/
+python/sdist/
+python/var/
+python/wheels/
+python/share/python-wheels/
+python/*.egg-info/
+python/.installed.cfg
+python/*.egg
+python/MANIFEST
+python/.pytest_cache/
+python/.coverage
+python/.hypothesis/
+python/htmlcov/
+python/venv/
+python/ENV/
+python/env/
+python/.venv/
+
+# TypeScript / Node.js
+ts/node_modules/
+ts/dist/
+ts/*.log
+ts/.npm
+ts/.eslintcache
+ts/.node_repl_history
+ts/*.tgz
+ts/.yarn-integrity
+ts/.env
+ts/.env.test
+ts/.cache
+ts/.parcel-cache
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test coverage
+coverage/
+*.cover
+.coverage.*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
