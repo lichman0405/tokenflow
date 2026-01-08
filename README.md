@@ -9,6 +9,12 @@
 
 Multi-language OAuth2 Device Flow implementation for GitHub Copilot and Hyper services.
 
+## 📚 Documentation
+
+- **[📖 Usage Guide](USAGE.md)** - Comprehensive examples and tutorials for all languages
+- **[🏗️ Design Document](docs/design_EN.md)** - Architecture and implementation details
+- **[🌐 中文设计文档](docs/design_CN.md)** - Chinese design documentation
+
 ## Language Implementations
 
 | Language | Directory | Documentation |
@@ -71,12 +77,7 @@ See [Python Documentation](python/README_EN.md) for detailed usage.
 
 ```bash
 cd ts
-npm install
-npm run build
-```
-
-See [TypeScript Documentation](ts/README_EN.md) for detailed usage.
-
+npm
 ## Documentation
 
 - **Usage Guide**: [USAGE.md](USAGE.md) - Comprehensive examples for all languages
