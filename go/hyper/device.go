@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/user/oauth"
+	oauth "github.com/lichman0405/tokenflow/go"
 )
 
 // BaseURL returns the Hyper API base URL.
