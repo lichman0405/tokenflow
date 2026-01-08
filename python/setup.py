@@ -6,10 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="oauth-deviceflow",
+    name="tokenflow",
     version="1.0.0",
-    author="OAuth DeviceFlow",
+    author="Shibo Li",
+    author_email="shadow.li981@gmail.com",
     description="OAuth2 device flow authentication library for GitHub Copilot and Hyper",
+    url="https://github.com/lichman0405/tokenflow",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),

@@ -1,6 +1,9 @@
-# OAuth 库
+# TokenFlow
 
 [English](README_EN.md) | [中文](README_CN.md)
+
+[![GitHub](https://img.shields.io/badge/GitHub-tokenflow-blue?logo=github)](https://github.com/lichman0405/tokenflow)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > ⚠️ **警告**：此库可能违反 GitHub Copilot 的服务条款。使用此库在未获得适当授权的情况下访问 GitHub Copilot 可能导致账号被暂停或终止。本项目仅供教育和研究目的使用。使用风险自负，请确保在使用此库之前获得适当的授权。
 

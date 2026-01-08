@@ -1,6 +1,9 @@
-# OAuth Library
+# TokenFlow
 
 [English](README_EN.md) | [中文](README_CN.md)
+
+[![GitHub](https://img.shields.io/badge/GitHub-tokenflow-blue?logo=github)](https://github.com/lichman0405/tokenflow)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > ⚠️ **WARNING**: This library may violate GitHub Copilot's Terms of Service. Using this library to access GitHub Copilot without proper authorization may result in account suspension or termination. This project is for educational and research purposes only. Use at your own risk and ensure you have appropriate authorization before using this library.
 

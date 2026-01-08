@@ -1,3 +1,3 @@
-module github.com/user/oauth
+module github.com/lichman0405/tokenflow/go
 
 go 1.21
